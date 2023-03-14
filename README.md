@@ -1,7 +1,8 @@
 # CRUD-TEST
 
-Para esse projeto de CRUD foram usadas as seguintes técnologias. É um projeto de implementação dos verbos básicos do http tanto pelo backend quanto pelo frontend
-através de API
+É um projeto de implementação dos verbos básicos do http tanto pelo backend quanto pelo frontend através de API.
+
+Para esse projeto de CRUD foram usadas as seguintes técnologias
 
 ## backend
 Django
