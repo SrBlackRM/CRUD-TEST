@@ -1,0 +1,136 @@
+.top-content{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    align-items: center;
+    background-color: rgb(0, 140, 255);
+    padding: 50px 50px 30px 50px;
+}
+
+.span-label{
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-create-user{
+    width: 30px;
+    height: 30px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.mid-content{
+    margin: 40px;
+}
+
+
+.user-form{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    background-color: rgb(61, 11, 102);
+    width: 500px;
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding: 40px 0 40px 0;
+}
+
+.span-editing{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.user-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    margin: 20px 0 20px 0;
+}
+
+.space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-list-ul{
+    margin-top: 20px;
+}
+
+.list-span{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.span-group{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+
+.label-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 100%;
+    color: white;
+}
+
+.input-editing{
+    width: 70%;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.buttons-save-close-group{
+    display: flex;
+}
+
+.button-save-close{
+    margin-top: 20px;
+    width: 80px;
+    padding: 10px;
+    background-color: rgb(74, 59, 201);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin: 10px;
+}
+
+.button-save-close:hover{
+    background-color: blueviolet;
+    color: black;
+}
